@@ -5,6 +5,6 @@ dotenv.config();
 const PORT: any = process.env.PORT;
 const HOST = 'api.vivek.com';
 
-app.listen(PORT, HOST, 1, () => {
+app.listen(PORT, () => {
    console.log('Express server listening on port ' + PORT);
 });
